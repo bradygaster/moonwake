@@ -1,0 +1,90 @@
+{
+  "schema": "squad-agent-provenance/v1",
+  "schema_version": 1,
+  "revision": 2,
+  "generated_at": "2026-11-10T00:43:37.888Z",
+  "agents": {
+    "iroh": {
+      "display_name": "Iroh",
+      "persistent_name": "Iroh",
+      "role": "Lead",
+      "universe": "Avatar: The Last Airbender",
+      "status": "active",
+      "created_at": "2026-11-10T00:43:37.888Z",
+      "updated_at": "2026-11-10T00:43:37.888Z"
+    },
+    "katara": {
+      "display_name": "Katara",
+      "persistent_name": "Katara",
+      "role": "Simulation Engineer",
+      "universe": "Avatar: The Last Airbender",
+      "status": "active",
+      "created_at": "2026-11-10T00:43:37.888Z",
+      "updated_at": "2026-11-10T00:43:37.888Z"
+    },
+    "sokka": {
+      "display_name": "Sokka",
+      "persistent_name": "Sokka",
+      "role": "Puzzle Designer",
+      "universe": "Avatar: The Last Airbender",
+      "status": "active",
+      "created_at": "2026-11-10T00:43:37.888Z",
+      "updated_at": "2026-11-10T00:43:37.888Z"
+    },
+    "aang": {
+      "display_name": "Aang",
+      "persistent_name": "Aang",
+      "role": "Browser UI Engineer",
+      "universe": "Avatar: The Last Airbender",
+      "status": "active",
+      "created_at": "2026-11-10T00:43:37.888Z",
+      "updated_at": "2026-11-10T00:43:37.888Z"
+    },
+    "toph": {
+      "display_name": "Toph",
+      "persistent_name": "Toph",
+      "role": "Quality Engineer",
+      "universe": "Avatar: The Last Airbender",
+      "status": "active",
+      "created_at": "2026-11-10T00:43:37.888Z",
+      "updated_at": "2026-11-10T00:43:37.888Z"
+    },
+    "scribe": {
+      "display_name": "Scribe",
+      "persistent_name": "Scribe",
+      "role": "Decision Merger",
+      "universe": "Squad built-ins",
+      "status": "active",
+      "created_at": "2026-11-10T00:43:37.888Z",
+      "updated_at": "2026-11-10T00:43:37.888Z"
+    },
+    "ralph": {
+      "display_name": "Ralph",
+      "persistent_name": "Ralph",
+      "role": "Work Monitor",
+      "universe": "Squad built-ins",
+      "status": "active",
+      "created_at": "2026-11-10T00:43:37.888Z",
+      "updated_at": "2026-11-10T00:43:37.888Z"
+    },
+    "rai": {
+      "display_name": "Rai",
+      "persistent_name": "Rai",
+      "role": "RAI Reviewer",
+      "universe": "Squad built-ins",
+      "status": "active",
+      "created_at": "2026-11-10T00:43:37.888Z",
+      "updated_at": "2026-11-10T00:43:37.888Z"
+    },
+    "fact-checker": {
+      "display_name": "Fact Checker",
+      "persistent_name": "Fact Checker",
+      "role": "Verification Agent",
+      "universe": "Squad built-ins",
+      "status": "active",
+      "created_at": "2026-11-10T00:43:37.888Z",
+      "updated_at": "2026-11-10T00:43:37.888Z"
+    }
+  },
+  "transaction_id": "a28631a7-b1b4-4a33-a210-3982a734c159"
+}

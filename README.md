@@ -55,3 +55,9 @@ The goal is to open `index.html` directly in a modern browser and play, without 
 ## Current status
 
 **Concept only.** This repository contains the game description and original visual concept. There is no playable build, `index.html`, or finished level set yet.
+
+## Development team
+
+The repository includes a project-specific [Squad team](docs/squad.md), using
+Squad **2.0.0-preview.4** and an *Avatar: The Last Airbender* cast. Squad is
+contributor tooling only; it adds no game dependencies or playable features.
