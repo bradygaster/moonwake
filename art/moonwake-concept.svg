@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title description">
+  <title id="title">Moonwake - move the moon, change the sea</title>
+  <desc id="description">An original concept illustration, not gameplay. A folded paper boat crosses a layered blue ocean between ochre islands. Engraved currents lead toward a lantern-lit harbor while an ivory moon sits on an orbital track.</desc>
+  <defs>
+    <pattern id="water" width="72" height="48" patternUnits="userSpaceOnUse">
+      <path d="M8 24q14-8 28 0t28 0" fill="none" stroke="#abd8db" stroke-width="1" opacity=".16"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto">
+      <path d="m0 0 6 3-6 3" fill="none" stroke="#c3ece2" stroke-width="1"/>
+    </marker>
+  </defs>
+  <path fill="#163a76" d="M0 0h1440v900H0z"/>
+  <path d="M0 420C180 260 316 406 495 258S820 154 1010 236s274-34 430-126v790H0Z" fill="#102e65"/>
+  <path d="M0 445C180 285 316 431 495 283S820 179 1010 261s274-34 430-126v765H0Z" fill="#245b9a"/>
+  <path d="M0 656c185-156 312-52 472-182s249-107 417-15 365-141 551-103v544H0Z" fill="#184b89"/>
+  <path d="M0 679c185-156 312-52 472-182s249-107 417-15 365-141 551-103v521H0Z" fill="#298e9e"/>
+  <path fill="url(#water)" d="M0 0h1440v900H0z"/>
+  <ellipse cx="751" cy="500" rx="523" ry="299" fill="none" stroke="#aed5db" stroke-width="1.5" stroke-dasharray="3 13" opacity=".65"/>
+  <g fill="#c6e4df">
+    <circle cx="228" cy="500" r="4"/><circle cx="381" cy="288" r="4"/>
+    <circle cx="1121" cy="288" r="4"/><circle cx="1274" cy="500" r="4"/>
+    <circle cx="1121" cy="711" r="4"/><circle cx="751" cy="799" r="4"/>
+  </g>
+  <g transform="translate(751 201)">
+    <circle r="48" fill="#102e65"/>
+    <circle cy="-7" r="48" fill="#f3e7bc"/>
+    <path d="M17-51c-34 8-46 52-20 79 15 15 36 18 51 9-17 25-53 28-75 7-35-32-16-89 29-96Z" fill="#d4cda9"/>
+    <circle cx="14" cy="-22" r="5" fill="#ded5b3"/>
+  </g>
+  <g>
+    <path d="M275 451c-54-29-85-7-108 34s-17 104 31 130 116 5 146-24 18-99-9-112Z" fill="#176e81"/>
+    <path d="M268 427c-54-29-85-7-108 34s-17 104 31 130 116 5 146-24 18-99-9-112Z" fill="#70c3ba"/>
+    <path d="M260 422c-37-22-62-4-78 24s-13 68 20 85 77 5 96-14 16-65-5-78Z" fill="#90652e"/>
+    <path d="M260 408c-37-22-62-4-78 24s-13 68 20 85 77 5 96-14 16-65-5-78Z" fill="#d2a24b"/>
+    <path d="m229 430 13 13-21 25-13-4Z" fill="#e9c374"/>
+    <path d="M504 321c-59-18-99 14-99 53s22 78 79 86 103-24 98-71-25-52-78-68Z" fill="#176e81"/>
+    <path d="M504 299c-59-18-99 14-99 53s22 78 79 86 103-24 98-71-25-52-78-68Z" fill="#70c3ba"/>
+    <path d="M491 302c-38-11-62 7-65 33s19 48 52 54 68-14 65-42-21-35-52-45Z" fill="#95692e"/>
+    <path d="M491 289c-38-11-62 7-65 33s19 48 52 54 68-14 65-42-21-35-52-45Z" fill="#dfb662"/>
+    <path d="M703 605c-41-17-87-6-117 32s-23 95 31 120 127 14 150-30 0-96-64-122Z" fill="#176e81"/>
+    <path d="M703 582c-41-17-87-6-117 32s-23 95 31 120 127 14 150-30 0-96-64-122Z" fill="#70c3ba"/>
+    <path d="M682 585c-33-10-63 2-81 28s-12 59 20 73 78 5 90-20 4-68-29-81Z" fill="#8d632f"/>
+    <path d="M682 571c-33-10-63 2-81 28s-12 59 20 73 78 5 90-20 4-68-29-81Z" fill="#d9aa52"/>
+    <path d="M993 420c-47-58-123-56-159-12s-7 125 46 154 91 5 92-36c-30 12-55 0-58-22s17-35 42-19 73-20 37-65Z" fill="#176e81"/>
+    <path d="M993 396c-47-58-123-56-159-12s-7 125 46 154 91 5 92-36c-30 12-55 0-58-22s17-35 42-19 73-20 37-65Z" fill="#70c3ba"/>
+    <path d="M976 390c-39-45-96-46-122-13s-7 87 31 110l-3-31c-5-39 49-54 74-23 23 10 40-17 20-43Z" fill="#94672d"/>
+    <path d="M976 375c-39-45-96-46-122-13s-7 87 31 110l-3-31c-5-39 49-54 74-23 23 10 40-17 20-43Z" fill="#dfb662"/>
+    <path d="m574 433 31 9 10 34-32 19-24-19Z" fill="#a0d4c2"/>
+    <path d="m578 440 20 7 8 21-22 12-15-10Z" fill="#e8d49a"/>
+  </g>
+  <g fill="none" stroke="#c3ece2" stroke-width="2" opacity=".85">
+    <path d="M324 646c41-66 87-92 139-95s95-4 114-39" marker-end="url(#arrow)"/>
+    <path d="M342 660c41-66 87-92 139-95s95-4 114-39" opacity=".45"/>
+    <path d="M630 486c64-94 133-103 170-54" marker-end="url(#arrow)"/>
+    <path d="M643 500c64-94 133-103 170-54" opacity=".45"/>
+    <path d="M806 550c58 69 143 69 188 3s15-104-42-82" marker-end="url(#arrow)"/>
+    <path d="M817 568c58 69 143 69 188 3s15-104-42-82" opacity=".45"/>
+  </g>
+  <g transform="translate(455 546) rotate(-17)">
+    <ellipse cy="28" rx="42" ry="8" fill="#176e81"/>
+    <path d="m-43 0 39 15L43 0 19 29h-38Z" fill="#f3e7bc"/>
+    <path d="m-43 0 39 15-15 14Z" fill="#d8cda7"/>
+    <path d="M-4 15 4-39 25 6Z" fill="#fff3cf"/>
+    <path d="M4-39v28L-20-5Z" fill="#d5ddcf"/>
+    <path d="M4-40v-17l23 7Z" fill="#ef754e"/>
+  </g>
+  <g transform="translate(939 448)">
+    <path d="M-4 0v42m-11-24h25m-25 10h25m-25 10h25" stroke="#5b5036" stroke-width="5"/>
+    <circle cy="-19" r="33" fill="#ffd47a" opacity=".1"/>
+    <circle cy="-19" r="21" fill="#ffd47a" opacity=".16"/>
+    <path d="m-11-29 11-9 11 9v22h-22Z" fill="#554a35"/>
+    <path d="M-7-26H7v15H-7Z" fill="#ffda79"/>
+    <path d="M0-35v-8" stroke="#554a35" stroke-width="3"/>
+  </g>
+  <g fill="#f3e7bc" font-family="Georgia, 'Times New Roman', serif">
+    <text x="78" y="118" font-size="76" letter-spacing="-3">Moonwake</text>
+    <text x="83" y="158" font-family="system-ui, sans-serif" font-size="18" fill="#c3dde2">Move the moon. Change the sea.</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#c3dde2" letter-spacing="2">
+    <text x="82" y="837">A LITTLE BOAT. A BORROWED MOON. A WAY HOME.</text>
+    <text x="1357" y="837" text-anchor="end">CONCEPT ART / NOT GAMEPLAY</text>
+  </g>
+</svg>
