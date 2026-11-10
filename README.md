@@ -2,7 +2,7 @@
 
 **Move the moon. Change the sea. Bring a little boat home.**
 
-Moonwake is a concept for a turn-based tidal puzzle game made entirely with HTML, CSS, and vanilla JavaScript. No dependencies, no build step, no backend.
+Moonwake is a turn-based tidal puzzle game made entirely with HTML, CSS, and vanilla JavaScript. No dependencies, no build step, no backend.
 
 ![Moonwake concept illustration: a paper boat follows engraved currents through a layered blue archipelago toward a lantern-lit harbor beneath a movable moon.](art/moonwake-concept.svg)
 
@@ -16,16 +16,18 @@ At low tide, sandbars emerge and narrow channels close. At high tide, hidden pas
 
 The puzzle is not how quickly you react. It is knowing when to open a passage, when to let the current carry you, and when to wait.
 
-## How a voyage would work
+## Play a voyage
 
 1. **Read the water.** Study the boat, harbor, sandbars, and current markings on a small, single-screen island map.
 2. **Preview a lunar move.** Choose the moon's next position and see the resulting tide, open channels, and boat route before committing.
 3. **Let the sea move you.** Advance one turn: the tide changes and the boat follows the indicated current.
 4. **Reach the lantern.** Enter the harbor before the turn budget runs out.
 
-The proposed first version would use handcrafted, deterministic puzzles: the same position and move always produce the same result. Undo and restart would let players experiment without punishment. Early voyages would introduce one rule at a time; later ones would combine tidal gates, branching currents, and carefully timed crossings.
+The moon circles eight labeled stations. On a turn, move one station clockwise or counterclockwise, or wait. Each station sets a fixed high or low tide. The boat reads the current on its own cell for the new tide and moves exactly one cell if the destination is open. Closed tidal cells block entry but do not trap a boat already there. Preview uses the same deterministic transition as commit. Unlimited undo and restart support experimentation.
 
-The exact moon positions, turn budgets, and current-resolution rules remain to be designed and playtested.
+Win by entering the harbor, including on the final turn. Otherwise, when the turn budget expires, dawn ends the voyage. Eight handcrafted voyages introduce still currents, turn budgets, low- and high-tide gates, waiting, tide-dependent currents, timed crossings, and combinations of those rules.
+
+Open `index.html` directly in a modern browser. Use the labeled station buttons to preview, then commit a lunar move. The voyage selector lets you replay any level; after a win, continue to the next voyage.
 
 ## A world made of paper and water
 
@@ -37,24 +39,30 @@ Imagine a miniature nautical theater viewed from above:
 - A small folded boat with a vermilion pennant travels toward an amber harbor lantern.
 - An ivory moon travels along a dotted orbital track framing the map. Its position is both the main control and the explanation for the changing sea.
 
-The board should be the first thing you see, not an illustration behind a menu. The memorable moment: moving the moon makes a strip of water peel away like paper, exposing the sandbar that redirects your boat into the harbor.
+The board is the first thing you see, not an illustration behind a menu. The memorable moment: moving the moon changes the water beneath the boat, exposing a sandbar or passage that redirects its route.
 
 This imagery can be drawn with inline SVG and CSS. No downloaded textures, external fonts, image services, or graphics libraries are needed. Motion would clarify each turn, with a reduced-motion alternative that updates the same state immediately.
 
 ## Built for the browser
 
-The intended implementation is deliberately small:
+The implementation is deliberately small:
 
 - **HTML** for the game shell, instructions, and accessible controls.
 - **CSS** for the layered-paper world, responsive layout, and transitions.
 - **Vanilla JavaScript** for the turn-based simulation, puzzle definitions, previews, and undo history.
 - **Inline SVG** for the islands, moon, boat, current markings, and lanterns.
 
-The goal is to open `index.html` directly in a modern browser and play, without an installation or network connection. Keyboard controls, labeled lunar positions, and a text description of each turn should make the underlying puzzle understandable without relying on animation or color alone.
+Open `index.html` directly and play without an installation or network connection. Keyboard-operable, labeled lunar positions, current arrows and patterns, and a live text description of each turn explain the puzzle without relying on animation or color alone. Reduced-motion preferences remove transitions without changing game state.
+
+Run the focused simulation and puzzle checks with Node.js's built-in test runner:
+
+```sh
+node --test test/game.test.js
+```
 
 ## Current status
 
-**Concept only.** This repository contains the game description and original visual concept. There is no playable build, `index.html`, or finished level set yet.
+**Playable first version.** Eight handcrafted voyages, the simulation, preview/commit, undo/restart, and the offline browser interface are included. The concept illustration remains original visual direction, not a screenshot of the game.
 
 ## Development team
 
